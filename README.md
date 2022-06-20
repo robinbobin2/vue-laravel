@@ -6,6 +6,7 @@
 * `php artisan test` 
 * `php artisan serve`
 ### Frontend
+* `cd frontend`
 * `npm install`
 * `npm test`
 * `npm run serve`
