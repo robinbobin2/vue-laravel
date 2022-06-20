@@ -12,4 +12,4 @@
 * `npm run serve`
 
 ### API
-The API variable is stored frontend/src/main.js and points to http://localhost:8000 by default
+The API variable is stored `frontend/src/main.js` and points to http://localhost:8000 by default
