@@ -19,7 +19,7 @@
           <p class="px-6 py-3 font-bold">Email</p>
         </div>
         <div class="flex-1 ml-2">
-          <p class="px-6 py-3 font-bold">Password</p>
+          <p class="px-6 py-3 font-bold">Password*</p>
         </div>
         <div class="flex-1 ml-2"></div>
       </div>
