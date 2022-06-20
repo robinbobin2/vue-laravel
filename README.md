@@ -1,12 +1,14 @@
 ## With docker
 * `cd backend`
 * `mv .env.example .env`
-* `docker run --rm \
+* ```
+docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/opt \
     -w /opt \
     laravelsail/php81-composer:latest \
-    composer install --ignore-platform-reqs `
+    composer install --ignore-platform-reqs 
+    ```
 
 * `cd ../`
 * `docker-compose up -d`
