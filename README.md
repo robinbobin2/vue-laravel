@@ -6,8 +6,7 @@
     -v $(pwd):/opt \
     -w /opt \
     laravelsail/php81-composer:latest \
-    composer install --ignore-platform-reqs
-```
+    composer install --ignore-platform-reqs```
 * `cd ../`
 * `docker-compose up -d`
 * `./backend/vendor/bin/sail artisan migrate:refresh --seed`
