@@ -86,6 +86,7 @@ export default {
         `${api}/api/users/${state.user.id}`,
         state.user
       );
+      state.user = data;
       router.push("/users");
     }
     watch(
