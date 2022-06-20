@@ -1,6 +1,7 @@
 ## With docker
 * `cd backend`
 * `mv .env.example .env`
+* Run command:
  ```
 docker run --rm \
 -u "$(id -u):$(id -g)" \
