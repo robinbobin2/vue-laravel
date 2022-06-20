@@ -1,8 +1,7 @@
 ## With docker
 * `cd backend`
 * `mv .env.example .env`
-* ```
-docker run --rm \
+* ```docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/opt \
     -w /opt \
