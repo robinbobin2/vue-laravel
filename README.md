@@ -1,7 +1,8 @@
 ## Test assignment
 ### Backend
 * `cd backend`
-* `composer install`
+* Configure the `.env` file
+* `composer update`
 * `php artisan migrate:refresh --seed`
 * `php artisan test` 
 * `php artisan serve`
