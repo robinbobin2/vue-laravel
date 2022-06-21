@@ -24,7 +24,7 @@ composer install --ignore-platform-reqs
 ### Backend
 * `cd backend`
 * Configure the `.env` file
-* `composer update`
+* `composer install`
 * `php artisan migrate:refresh --seed`
 * `php artisan test` 
 * `php artisan serve`
